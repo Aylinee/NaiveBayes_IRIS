@@ -4,7 +4,7 @@ from math import sqrt, pi, exp
 import random
 
 # Importing Iris data set
-iris = pd.read_csv('C:/Users/xxxx/Desktop/IRIS/Iris.csv')
+iris = pd.read_csv('C:/Users/xxxx/xxxxxx/IRIS/Iris.csv')
 
 # Display data
 print(iris.head())
@@ -84,4 +84,5 @@ y_pred = predict(X_test, priors, data)
 # Calculate accuracy
 accuracy = np.mean(y_pred == y_test)
 print(f'Accuracy: {accuracy * 100:.2f}%')
+
 
